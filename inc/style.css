@@ -34,7 +34,7 @@
 @media (prefers-color-scheme:light) {
     body{background:#eee url('/image/bg.tp-1.white.png');color:#555}
     #damso-page article p.link{background:#fff}
-    #rotate{background:#333 url('/image/bg.tp-1.black.png')}
+    .rotate{background:#333 url('/image/bg.tp-1.black.png')}
 }
 
 @media (prefers-color-scheme:dark) {
@@ -47,5 +47,5 @@
 	#damso-footer.gray address nav li,
 	#damso-footer.gray address .bar span{border-color:#555}
 	#damso-footer.gray .damso-symbol-image{filter:invert(70%)}
-    #rotate{background:#eee url('/image/bg.tp-1.white.png')}
+    .rotate{background:#eee url('/image/bg.tp-1.white.png')}
 }
