@@ -20,7 +20,7 @@
     #damso-page article > *{margin-top:1em}
     #damso-page article p.link{display:inline-block;padding:1em;border-radius:1em}
     #damso-page article ol li.point{color:cornflowerblue}
-    .rotate{position:fixed;bottom:-25%;right:-25%;width:50%;height:50%;border-radius:50%;border:1em dotted;animation:rotate 120s linear infinite;opacity:0.1}
+    .rotate{position:fixed;bottom:-25%;right:-25%;width:50%;height:50%;border-radius:50%;animation:rotate 120s linear infinite;opacity:0.1}
     .rotate.tp-TL{top:-25%;left:-25%}
     .rotate.tp-TR{top:-25%;right:-25%}
     .rotate.tp-BL{bottom:-25%;left:-25%}
@@ -34,7 +34,7 @@
 @media (prefers-color-scheme:light) {
     body{background:#eee url('/image/bg.tp-1.white.png');color:#555}
     #damso-page article p.link{background:#fff}
-    .rotate{border-color:#333}
+    .rotate{background:#333}
 }
 
 @media (prefers-color-scheme:dark) {
@@ -47,5 +47,5 @@
 	#damso-footer.gray address nav li,
 	#damso-footer.gray address .bar span{border-color:#555}
 	#damso-footer.gray .damso-symbol-image{filter:invert(70%)}
-    .rotate{border-color:#eee}
+    .rotate{background:#eee}
 }
