@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;600&display=swap');
+@font-face {
+  font-family: 'Nanum BarunGothic';
+  src: local('NanumBarunGothic'),
+  url('https://t1.daumcdn.net/tistory_admin/static/font/NanumBarunGothic/NanumBarunGothicWeb.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Nanum BarunGothic';
+  src: local('NanumBarunGothic Bold'), local('NanumBarunGothicBold'),
+  url('https://t1.daumcdn.net/tistory_admin/static/font/NanumBarunGothic/NanumBarunGothicWebBold.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+html,body,table,input,textarea,select,button{
+  font-family:'Nanum BarunGothic','Apple SD Gothic Neo',Sans-Serif;
+  font-display:swap
+}

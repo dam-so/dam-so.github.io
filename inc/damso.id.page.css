@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*
+	github custom version
+	Not compatible with the official version
+*/
+
+/* section (page) */
+    #damso-page section{margin-top:2em}
+    #damso-page section:first-child{margin-top:0}
+
+/* section (page) + article */
+    #damso-page article{padding:1.5em 0;border-top:1px dotted #aaa;line-height:1.7em;letter-spacing:-0.01em}
+    #damso-page article:first-child{padding-top:0;border:none}
+    #damso-page article > :first-child{margin-top:0}
+    #damso-page article > *{margin-top:0.8em}
+    #damso-page article ol{margin-left:1.5em;list-style-type:disc}
+    #damso-page article ol li{margin-top:0.2em}
+    #damso-page article ol li:first-child{margin-top:0}
+    #damso-page article ol li.point{color:rosybrown}
