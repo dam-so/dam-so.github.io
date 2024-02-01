@@ -11,7 +11,7 @@
     #damso .inner{width:90%;margin:0 auto;padding:2em 5%}
     #damso .box{margin-top:3em}
     #damso-title strong{font:100 3em/1em Kanit}
-    #damso-title strong span{
+    #damso-title .color{
         font-weight:900;
         background:linear-gradient(to bottom right, #5555aa, #ff77ff);
         -webkit-background-clip:text;
