@@ -20,7 +20,7 @@
     #damso-page article > *{margin-top:1em}
     #damso-page article p.link{display:inline-block;padding:1em;border-radius:1em}
     #damso-page article ol li.point{color:cornflowerblue}
-    .rotate{position:fixed;bottom:-25%;right:-25%;width:50%;height:50%;animation:rotate 120s linear infinite;opacity:0.1}
+    .rotate{position:fixed;bottom:-25%;right:-25%;width:50%;height:50%;border-radius:10%;animation:rotate 120s linear infinite;opacity:0.1}
     .rotate.tp-TL{top:-25%;left:-25%}
     .rotate.tp-TR{top:-25%;right:-25%}
     .rotate.tp-BL{bottom:-25%;left:-25%}
