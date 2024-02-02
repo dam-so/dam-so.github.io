@@ -34,7 +34,7 @@
 @media (prefers-color-scheme:light) {
     body{background:#eee url('/image/bg.tp-1.white.png');color:#555}
     #damso-page article p.link{background:#fff}
-    .rotate{background:#333}
+    .rotate{background:#777}
 }
 
 @media (prefers-color-scheme:dark) {
