@@ -1,25 +1,18 @@
 @charset "utf-8";
 @import url('./damso.css');
-@import url('./damso.id.page.css');
 @import url('./damso.id.footer.css');
 
 /* Github Edition */
     a{color:rosybrown}
     a:hover{color:rosybrown;text-decoration:underline}
 
-/* ID */
-    #damso .inner{width:90%;margin:0 auto;padding:2em 5%}
-    #damso .box{margin-top:3em}
-    #damso-title strong{font:100 3em/1em Kanit}
-    #damso-title .color{
-        font-weight:900;
-        background:linear-gradient(to bottom right, #5555aa, #ff77ff);
-        -webkit-background-clip:text;
-        color:transparent}
-    #damso-page article{margin-top:1em;padding:0}
-    #damso-page article > *{margin-top:1em}
-    #damso-page article p.link{display:inline-block;padding:1em;border-radius:1em}
-    #damso-page article ol li.point{color:cornflowerblue}
+/* damso-title */
+    #damso-title a{font:900 3em/1em Kanit;
+    background: linear-gradient(to bottom right, #5555aa, #ff77ff);
+    -webkit-background-clip: text;
+    color: transparent;}
+
+/* rotate */
     .rotate{position:fixed;bottom:-25%;right:-25%;width:50%;height:50%;border-radius:50%;animation:rotate 120s linear infinite;opacity:0.1}
     .rotate.tp-TL{top:-25%;left:-25%}
     .rotate.tp-TR{top:-25%;right:-25%}
@@ -33,13 +26,12 @@
 
 @media (prefers-color-scheme:light) {
     body{background:#eee url('/image/bg.tp-1.white.png');color:#555}
-    #damso-page article p.link{background:#fff}
     .rotate{background:#777}
 }
 
 @media (prefers-color-scheme:dark) {
     body{background:#333 url('/image/bg.tp-1.black.png');color:#aaa}
-    #damso-page article p.link{background:#333}
+    .rotate{background:#eee}
     #damso-footer.gray address a,
 	#damso-footer.gray address p,
 	#damso-footer.gray address span{color:#aaa}
@@ -47,5 +39,4 @@
 	#damso-footer.gray address nav li,
 	#damso-footer.gray address .bar span{border-color:#555}
 	#damso-footer.gray .damso-symbol-image{filter:invert(70%)}
-    .rotate{background:#eee}
 }
