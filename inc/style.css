@@ -23,6 +23,10 @@
 /* damso-footer */
     #damso-footer{position:fixed;bottom:0;width:100%;text-align:center;}
 
+@media screen and (max-height:500px){
+    #damso-footer{display:none}
+    }
+
 @media (prefers-color-scheme:light) {
     body{background:#eee url('/image/bg.tp-1.white.png');color:#555}
     }
