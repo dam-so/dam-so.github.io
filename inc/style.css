@@ -10,8 +10,8 @@
     #damso-logo h1,
     #damso-logo h2{margin-bottom:5px;padding:0 20px;text-transform:uppercase}
     #damso-logo h1{margin-left:0.01em;letter-spacing:0.01em;font:600 2em/1em Kanit}
-    #damso-logo h2{margin-left:0.02em;letter-spacing:0.02em;font:300 1em/1em Kanit;color:#aaa;}
-    #damso-logo .color{background:linear-gradient(to bottom right, #5555aa, #ff77ff);-webkit-background-clip:text;color:transparent;}
+    #damso-logo h2{margin-left:0.02em;letter-spacing:0.02em;font:300 1em/1em Kanit;color:#aaa}
+    #damso-logo .color{background:linear-gradient(to bottom right, #5555aa, #ff77ff);-webkit-background-clip:text;color:transparent}
 
 /* damso-menu */
     #damso-menu{position:fixed;top:50%;width:100%;margin-top:3em;text-align:center;white-space:nowrap}
@@ -21,7 +21,7 @@
     #damso-menu a:hover{background-color:#777;color:#fff}
 
 /* damso-footer */
-    #damso-footer{position:fixed;bottom:0;width:100%;text-align:center;}
+    #damso-footer{position:fixed;bottom:0;width:100%;text-align:center}
 
 @media screen and (max-height:500px){
     #damso-footer{display:none}
