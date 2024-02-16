@@ -18,7 +18,7 @@
     #damso-menu li{display:inline-block;margin-left:0.1em}
     #damso-menu li:first-child{margin-left:0}
     #damso-menu a{display:block;padding:5px 10px;border:1px solid #777;border-radius:4px}
-    #damso-menu a:hover{border-color:#ffd400;background-color:#ffd400;color:#333}
+    #damso-menu a:hover{background-color:#777;color:#fff}
 
 /* damso-footer */
     #damso-footer{position:fixed;bottom:0;width:100%;text-align:center;}
@@ -33,6 +33,8 @@
 
 @media (prefers-color-scheme:dark) {
     body{background:#333 url('/image/bg.tp-1.black.png');color:#aaa}
+    #damso-menu a{border-color:#aaa}
+    #damso-menu a:hover{background-color:#aaa;color:#333}
     #damso-footer.gray address a,
 	#damso-footer.gray address p,
 	#damso-footer.gray address span{color:#aaa}
