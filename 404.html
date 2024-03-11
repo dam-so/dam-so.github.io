@@ -5,8 +5,14 @@ permalink: /404.html
 <head>
   <meta charset="UTF-8">
   <title>Please wait a moment</title>
-  <script type="text/javascript">parent.location.replace("https://www.damso.org{{ page.url }}");</script>
-<link rel="canonical" href="https://www.damso.org{{ page.url }}" />
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      var subPath = window.location.pathname.split('/')[1];
+      var referrerUrl = 'https://www.damso.org/' + subPath;
+      parent.location.replace(referrerUrl);
+    });
+  </script>
+  <link rel="canonical" href="https://www.damso.org/" />
 </head>
 <body>
 </body>
