@@ -11,7 +11,7 @@ permalink: /404.html
       var referrerUrl = 'https://www.damso.org/' + subPath;
       parent.location.replace(referrerUrl);
       var linkText = document.createElement('p');
-      linkText.textContent = '이동 주소: ' + referrerUrl;
+      linkText.textContent = 'Link: ' + referrerUrl;
       document.body.appendChild(linkText);
       var canonicalLink = document.createElement('link');
       canonicalLink.rel = 'canonical';
