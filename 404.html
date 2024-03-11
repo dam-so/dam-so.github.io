@@ -7,7 +7,7 @@ permalink: /404.html
   <title>Please wait a moment</title>
   <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function () {
-      var subPath = window.location.pathname.split('/')[1];
+      var subPath = window.location.pathname.substring(1);
       var referrerUrl = 'https://www.damso.org/' + subPath;
       parent.location.replace(referrerUrl);
     });
@@ -15,5 +15,6 @@ permalink: /404.html
   <link rel="canonical" href="https://www.damso.org/" />
 </head>
 <body>
+  <p>Please wait a moment</p>
 </body>
 </html>
