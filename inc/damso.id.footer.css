@@ -10,15 +10,9 @@
 	#damso-footer address *{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;list-style:none;font-style:normal;text-transform:uppercase;}
 
 /* ul, p */
-	#damso-footer address p,
-	#damso-footer address span{letter-spacing:0;color:#707070}
-	#damso-footer address p{margin-bottom:5px;font:12px tahoma}
+	#damso-footer address p{margin-bottom:5px;font:12px tahoma;letter-spacing:0;color:#707070}
+	#damso-footer address p.duty{font-size:1em;font-family:inherit}
 	#damso-footer address p.symbol{margin-top:20px}
-
-/* nav / bar */
-	#damso-footer address .bar span{display:inline;white-space:nowrap;margin-left:7px;padding-left:7px;border-left:1px solid #ccc;line-height:1.5em}
-	#damso-footer address .bar span.first,
-	#damso-footer address .bar span:first-child{border:none;padding-left:0;margin-left:0}
 
 /* symbol */
 	#damso-footer .damso-symbol-image{width:54px;height:12px;background-size:54px 12px;line-height:10px;background-image:url('/image/damso.symbol.png');background-repeat:no-repeat;background-position:50%;display:inline-block}
