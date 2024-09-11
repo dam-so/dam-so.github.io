@@ -16,7 +16,7 @@
     #damso-menu{position:fixed;top:50%;width:100%;margin-top:5em;text-align:center;white-space:nowrap}
     #damso-menu li{display:inline-block;margin-left:0.1em}
     #damso-menu li:first-child{margin-left:0}
-    #damso-menu a{display:block;padding:5px 10px;border-radius:4px;background-color:#333;color:#fff}
+    #damso-menu a{display:block;padding:3px 9px;border-radius:5px;background-color:#333;color:#fff}
     #damso-menu a:hover{background-color:#ffd400;color:#333}
 
 /* damso-footer */
