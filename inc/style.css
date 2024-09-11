@@ -9,7 +9,7 @@
     #damso-logo{position:fixed;top:48%;width:100%;margin:-20px 0 0 0;text-align:center}
     #damso-logo h1,
     #damso-logo h2{padding:1px 20px}
-    #damso-logo h1{margin-left:0.1em;letter-spacing:0.1em;font:600 3em/1em Kanit;color:#333}
+    #damso-logo h1{font:600 3em/1em Kanit;color:#333}
     #damso-logo h2{margin-left:0.5em;letter-spacing:0.5em;font:300 1em/1em Kanit;color:#777}
 
 /* damso-menu */
