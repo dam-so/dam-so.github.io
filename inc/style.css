@@ -13,7 +13,7 @@
     #damso-logo h2{margin-left:0.03em;letter-spacing:0.03em;font:300 1.1em/1em Kanit;color:#777}
 
 /* damso-menu */
-    #damso-menu{position:fixed;top:50%;width:100%;margin-top:3em;text-align:center;white-space:nowrap}
+    #damso-menu{position:fixed;top:50%;width:100%;margin-top:5em;text-align:center;white-space:nowrap}
     #damso-menu li{display:inline-block;margin-left:0.1em}
     #damso-menu li:first-child{margin-left:0}
     #damso-menu a{display:block;padding:5px 10px;border-radius:4px;background-color:#333;color:#fff}
