@@ -32,8 +32,8 @@
 
 @media (prefers-color-scheme:dark) {
     body{background:#333 url('/image/bg.tp-1.black.png');color:#aaa}
-    #damso-logo h1{color:#aaa}
-    #damso-logo h2{color:#888}
+    #damso-logo h1{color:#eee}
+    #damso-logo h2{color:#aaa}
     #damso-menu a{background-color:#aaa;color:#000}
     #damso-footer.gray address a,
 	#damso-footer.gray address p{color:#aaa}
